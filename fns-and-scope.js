@@ -63,7 +63,7 @@ function welcome(){
 
   //Code Here
 function myName(){
-  return "Carlos Alberto Sueldo";
+  return "Carlos";
 }
 
 
