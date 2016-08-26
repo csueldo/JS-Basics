@@ -18,7 +18,9 @@ function isTyler(name){
 
 
   //Code Here
-
+function getName(){
+  return prompt("What is your name?");
+}
 
 //////////////////PROBLEM 3////////////////////
 
@@ -28,7 +30,9 @@ function isTyler(name){
 //then alerts "Welcome, " plus whatever the users name is.
 
   //Code Here
-
+function welcome(){
+  return "Welcome, " + getName();
+}
 
 //////////////////PROBLEM 4////////////////////
 
@@ -38,7 +42,7 @@ function isTyler(name){
 //What is the difference between arguments and parameters?
 
   //Answer Here
-
+//arguments are values passed through the function and parameters are variables defined in the function to receive them.
 
 //////////////////PROBLEM 5////////////////////
 
@@ -48,7 +52,7 @@ function isTyler(name){
 
 
   //Answer Here
-
+//0, NaN, "", null, and undefined. Check to see if its equal to any of the falsy values.
 
 
 //////////////////PROBLEM 6////////////////////
@@ -58,7 +62,9 @@ function isTyler(name){
 //Create a function called myName that returns your name
 
   //Code Here
-
+function myName(){
+  return "Carlos Alberto Sueldo";
+}
 
 
 //Now save the function definition of myName into a new variable called newMyName
